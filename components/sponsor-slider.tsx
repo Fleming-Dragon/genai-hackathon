@@ -30,8 +30,8 @@ export function SponsorSlider() {
     },
     {
       id: 2,
-      name: "InnovateLabs",
-      logo: "/placeholder.svg?height=80&width=200",
+      name: "Sanskar English School",
+      logo: "/spon_sansSchool.jpg",
     },
     {
       id: 3,
@@ -197,7 +197,7 @@ export function SponsorSlider() {
                   </div>
 
                   {/* Always visible text */}
-                  <div className="absolute inset-0 flex items-end justify-center p-4">
+                  <div className="absolute inset-0 flex items-end justify-center p-4 mt-1">
                     <span className="text-black font-medium">
                       {sponsor.name}
                     </span>

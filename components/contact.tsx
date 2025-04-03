@@ -11,33 +11,19 @@ export function Contact() {
 
   const coordinators = [
     {
-      name: "John Doe",
-      designation: "Event Manager",
+      name: "Prithviraj Kharate",
       phone: "+91 9876543211",
     },
     {
-      name: "Jane Smith",
-      designation: "Technical Lead",
+      name: "Ishwari Ikhe",
       phone: "+91 9876543212",
     },
     {
-      name: "Alice Johnson",
-      designation: "Logistics Coordinator",
+      name: "Shamika sonje",
       phone: "+91 9876543213",
     },
     {
-      name: "John Doe",
-      designation: "Event Manager",
-      phone: "+91 9876543211",
-    },
-    {
-      name: "Jane Smith",
-      designation: "Technical Lead",
-      phone: "+91 9876543212",
-    },
-    {
-      name: "Alice Johnson",
-      designation: "Logistics Coordinator",
+      name: "Ved Mahajan",
       phone: "+91 9876543213",
     },
   ];
@@ -66,9 +52,6 @@ export function Contact() {
               className="bg-card/50 backdrop-blur-sm p-6 rounded-lg shadow-md"
             >
               <h3 className="text-xl font-semibold mb-2">{coordinator.name}</h3>
-              <p className="text-muted-foreground mb-2">
-                {coordinator.designation}
-              </p>
               <a
                 href={`tel:${coordinator.phone}`}
                 className="text-primary font-medium hover:underline"
