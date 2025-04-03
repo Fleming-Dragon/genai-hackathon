@@ -12,19 +12,15 @@ export function Contact() {
   const coordinators = [
     {
       name: "Prithviraj Kharate",
-      phone: "+91 9876543211",
+      phone: "+91 87678 39792",
     },
     {
       name: "Ishwari Ikhe",
-      phone: "+91 9876543212",
+      phone: "+91 93594 71074",
     },
     {
-      name: "Shamika sonje",
-      phone: "+91 9876543213",
-    },
-    {
-      name: "Ved Mahajan",
-      phone: "+91 9876543213",
+      name: "Shamika Sonje",
+      phone: "+91 77208 91235",
     },
   ];
 
