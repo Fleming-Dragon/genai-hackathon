@@ -13,6 +13,7 @@ import {
   FileText,
   AlertTriangle,
 } from "lucide-react";
+import Link from "next/link";
 
 export function Guidelines() {
   const [ref, inView] = useInView({
@@ -86,12 +87,17 @@ export function Guidelines() {
                         presentation must be submitted by the specified
                         deadline, i.e., 7th April, 11:59 PM IST.
                       </p>
-                      <Button
-                        variant="outline"
-                        className="mt-2 flex items-center gap-2"
+                      <Link
+                        href="https://docs.google.com/presentation/d/1Vnm6wmarzmxvfnwp3Ztbu9qy7H9KhK5s/edit?usp=sharing&ouid=102268316398268514159&rtpof=true&sd=true"
+                        passHref
                       >
-                        <Download size={16} /> Download Template
-                      </Button>
+                        <Button
+                          variant="outline"
+                          className="mt-2 flex items-center gap-2"
+                        >
+                          <Download size={16} /> Download Template
+                        </Button>
+                      </Link>
                     </div>
                   </li>
                   <li className="flex gap-3">
