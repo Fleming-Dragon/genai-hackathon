@@ -16,7 +16,7 @@ export function Contact() {
     },
     {
       name: "Ishwari Ikhe",
-      phone: "+91 93594 71074",
+      phone: "",
     },
     {
       name: "Shamika Sonje",
