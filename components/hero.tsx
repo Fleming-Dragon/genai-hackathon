@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -69,12 +70,17 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-col sm:flex-row justify-center gap-4"
         >
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-purple-600 to-cyan-400 hover:opacity-90 text-white"
+          <Link
+            href="https://unstop.com/p/genaithon-2k25-matoshri-college-of-engineering-nashik-1457683"
+            passHref
           >
-            Register Now
-          </Button>
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-purple-600 to-cyan-400 hover:opacity-90 text-white"
+            >
+              Register Now
+            </Button>
+          </Link>
           <Button
             size="lg"
             variant="outline"

@@ -93,9 +93,14 @@ export function Navbar() {
               {link.name}
             </Button>
           ))}
-          <Button className="ml-2 bg-gradient-to-r from-purple-600 to-cyan-400 hover:opacity-90">
-            Register Now
-          </Button>
+          <Link
+            href="https://unstop.com/p/genaithon-2k25-matoshri-college-of-engineering-nashik-1457683"
+            passHref
+          >
+            <Button className="ml-2 bg-gradient-to-r from-purple-600 to-cyan-400 hover:opacity-90">
+              Register Now
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Navigation Toggle */}
