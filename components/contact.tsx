@@ -20,7 +20,7 @@ export function Contact() {
     },
     {
       name: "Shamika Sonje",
-      phone: "+91 77208 91235",
+      phone: "+91 9834676731",
     },
   ];
 
