@@ -18,25 +18,25 @@ export function Timeline() {
         "Team registration begins. Form teams of 2-4 members and submit your initial proposal.",
     },
     {
-      date: "April 7, 2025",
+      date: "April 10, 2025",
       title: "Registration Closes",
       description:
         "Last day to register your team and submit your proposal for the hackathon.",
     },
     {
-      date: "April 8, 2025",
+      date: "April 11, 2025",
       title: "Round 1 Submission (Online)",
       description:
         "Teams submit their projects online for the first round of evaluation.",
     },
     {
-      date: "April 9, 2025",
+      date: "April 12, 2025",
       title: "Round 2 Judging (Online)",
       description:
         "Judges evaluate the submissions and shortlist teams for the next round.",
     },
     {
-      date: "April 10, 2025",
+      date: "April 13, 2025",
       title: "Round 2 Results",
       description:
         "Announcement of the teams that have qualified for the final round.",

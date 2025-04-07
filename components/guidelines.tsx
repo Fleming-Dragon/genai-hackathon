@@ -66,7 +66,7 @@ export function Guidelines() {
                     <FileText className="text-primary" size={20} />
                   </div>
                   <CardTitle>
-                    Submission Round: Online (31 March - 8 April)
+                    Submission Round: Online (31 March - 10 April)
                   </CardTitle>
                 </div>
               </CardHeader>
@@ -123,7 +123,7 @@ export function Guidelines() {
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                     <Calendar className="text-primary" size={20} />
                   </div>
-                  <CardTitle>Round 2: Online (9th April, 2025)</CardTitle>
+                  <CardTitle>Round 2: Online (11th April, 2025)</CardTitle>
                 </div>
               </CardHeader>
               <CardContent className="pt-6">
@@ -155,7 +155,7 @@ export function Guidelines() {
                         Submission will be screened by the judging panel based
                         on creativity, feasibility, and relevance to the chosen
                         problem statements. Results will be announced on the
-                        GenAIton website on 10th April, 2025.
+                        GenAIton website on 13th April, 2025.
                       </p>
                     </div>
                   </li>
