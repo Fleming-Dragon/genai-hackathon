@@ -35,8 +35,8 @@ export function SponsorSlider() {
     },
     {
       id: 3,
-      name: "AI Solutions",
-      logo: "/placeholder.svg?height=80&width=200",
+      name: "SachiTech",
+      logo: "/spon_sachitech.png",
     },
     {
       id: 4,

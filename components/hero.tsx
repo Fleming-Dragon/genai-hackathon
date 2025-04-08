@@ -42,6 +42,13 @@ export function Hero() {
             height={75}
             className="rounded-full object-cover"
           />
+          <Image
+            src="/acm_dhule.png"
+            alt="Image 4"
+            width={75}
+            height={75}
+            className="rounded-full object-cover"
+          />
         </motion.div>
 
         <motion.div
