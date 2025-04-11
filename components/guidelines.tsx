@@ -181,10 +181,37 @@ export function Guidelines() {
                     <div>
                       <p className="font-medium">Attendance</p>
                       <p className="text-muted-foreground">
-                        All members of the team must be present at MCOERC for
+                        All members of the team must be present at KBTCOE for
                         the offline round. All team members are required to
                         carry their College ID cards.
                       </p>
+                      <Button
+                        variant="outline"
+                        className="mt-2 flex items-center gap-2 text-sm"
+                        onClick={() =>
+                          window.open(
+                            "https://maps.app.goo.gl/DqJDWsowH7VSBLp67",
+                            "_blank"
+                          )
+                        }
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-map-pin"
+                        >
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        View Venue Location
+                      </Button>
                     </div>
                   </li>
                   <li className="flex gap-3">
