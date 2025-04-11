@@ -40,8 +40,8 @@ export function SponsorSlider() {
     },
     {
       id: 4,
-      name: "DataVision",
-      logo: "/placeholder.svg?height=80&width=200",
+      name: "Cyber Sanskar",
+      logo: "/spon_cyb_sanskar.jpg",
     },
     {
       id: 5,
